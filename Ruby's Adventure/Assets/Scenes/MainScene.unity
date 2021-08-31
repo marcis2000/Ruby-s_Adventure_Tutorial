@@ -4647,18 +4647,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1340566685657588498, guid: 3f59a805a5194df40a334807b987f105, type: 3}
-      propertyPath: m_SleepingMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835059992302379648, guid: 3f59a805a5194df40a334807b987f105, type: 3}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835059992302379648, guid: 3f59a805a5194df40a334807b987f105, type: 3}
-      propertyPath: maxHealth
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 8835059992302379649, guid: 3f59a805a5194df40a334807b987f105, type: 3}
       propertyPath: m_RootOrder
       value: 28
