@@ -86,7 +86,8 @@ public class EnemyController : MonoBehaviour
     public void Fix()
     {
         audioSource.clip = fixClip;
-        audio.Play();
+        audioSource.Play();
+        audioSource.loop = false;
         broken = false;
         rigidbody2D.simulated = false;
         animator.SetTrigger("Fixed");

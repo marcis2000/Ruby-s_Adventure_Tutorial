@@ -25,6 +25,7 @@ public class RubyController : MonoBehaviour
     AudioSource audioSource;
     public AudioClip cogClip;
     public AudioClip hitClip;
+    public AudioClip walkingClip;
 
     // Start is called before the first frame update
     void Start()
@@ -77,6 +78,18 @@ public class RubyController : MonoBehaviour
                 }
             }
         }
+
+        /*if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
+        else
+        {
+            audioSource.Stop();
+        }*/
     }
 
     void FixedUpdate()
