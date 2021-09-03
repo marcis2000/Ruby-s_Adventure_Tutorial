@@ -6,6 +6,7 @@ public class HealthCollectible : MonoBehaviour
 {
 
     public ParticleSystem collectingHealth;
+    public AudioClip collectedClip;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,6 +18,8 @@ public class HealthCollectible : MonoBehaviour
                 controller.ChangeHealth(1);
                 Instantiate(collectingHealth, gameObject.transform.position, Quaternion.identity);
                 Destroy(gameObject);
+
+                controller.PlaySound(collectedClip);
             }
         }
     }
