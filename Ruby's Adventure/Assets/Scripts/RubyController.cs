@@ -86,10 +86,6 @@ public class RubyController : MonoBehaviour
                 PlaySound(walkingClip);
             }
         }
-        else
-        {
-            audioSource.Stop();
-        }
     }
 
     void FixedUpdate()
