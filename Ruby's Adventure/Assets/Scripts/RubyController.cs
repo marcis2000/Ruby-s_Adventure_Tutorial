@@ -79,17 +79,17 @@ public class RubyController : MonoBehaviour
             }
         }
 
-        /*if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
+        if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
         {
             if (!audioSource.isPlaying)
             {
-                audioSource.Play();
+                PlaySound(walkingClip);
             }
         }
         else
         {
             audioSource.Stop();
-        }*/
+        }
     }
 
     void FixedUpdate()
